@@ -1,0 +1,15 @@
+{
+	"plugins": [
+		"ga",
+		"youtubex",
+		"sectionx",
+		"mcqx",
+		"ace"
+	],
+	"pluginsConfig": {
+		"ga": {
+			"token": "UA-63734627-1"
+		}
+	},
+	"gitbook": ">=2.0.0"
+}
