@@ -4,5 +4,4 @@
 * [gitbook-plugin-youtubex](testing_youtubex.md)
 * [gitbook-plugin-sectionx](testing_sectionx.md)
 * [gitbook-plugin-mcqx](testing_mcqx.md)
-* [gitbook-plugin-fbqx](testing_fbqx.md)
 * [gitbook-plugin-ace](testing_ace.md)
