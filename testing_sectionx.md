@@ -7,12 +7,12 @@ This page is implemented using the two plugins developed by me: ```gitbook-plugi
 The source code for this page is available [here](https://raw.githubusercontent.com/ymcatar/gitbook-test/master/testing_sectionx.md).
 <!--endsec-->
 
-<!--sec data-title="Example 1" data-id="section1" ces-->
+<!--sec data-title="Example" data-id="section1" ces-->
 This is a section that is by default visible (with ```data-show=true```). You can toggle this with the button in the title. The next section is hidden by default, you can add a custom button to toggle it (see GitHub for the syntax).
 
-<button class="section" target="section2" show="Show the next section" hide="Hide the next section"></button>
+<button class="section" target="section2" show="Show the next  hidden section" hide="Hide the next hidden section"></button>
 <!--endsec-->
 
-<!--sec data-title="Hidden 2" data-id="section2" data-show=false ces-->
+<!--sec data-title="Hidden Section" data-id="section2" data-show=false ces-->
 This section can only be opened with that button.
 <!--endsec-->
