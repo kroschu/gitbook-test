@@ -15,7 +15,7 @@ Question attempted will be disabled, however, you can open a new tab in Incognto
 
 The ```random``` option is enabled for the question, you might find the order of the questions to be different when you refresh the page.
 
-{%mcq ans="o4", target="q3", random=true%}
+{%mcq ans="o4", random=true%}
 {%title%}
 Which of the following is not a planet in the Solar System?
 {%o1%} Jupiter
@@ -24,12 +24,6 @@ Which of the following is not a planet in the Solar System?
 {%o4%} Pluto
 {%hint%} Poor Pluto ...
 {%endmcq%}
-
-Answer this question correctly to show the next section (this is achieved by add ```target``` parameter, and together with ```gitbook-plugin-sectionx```).
-
-<!--endsec-->
-
-<!--sec data-title="More Examples" data-id="q3" data-show=false ces-->
 
 The ```random``` option is disabled for the question.
 
