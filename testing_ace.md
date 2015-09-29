@@ -30,3 +30,11 @@ console.log(message);
 {%endace%}
 
 <!--endsec-->
+
+And a piece of javascript code with wrong syntax, but with syntax validation disabled.
+
+{%ace edit=false, lang='javascript', check=true%}
+var test = [
+	somethingIsWrong: 'withThis';
+];
+{%endace%}
