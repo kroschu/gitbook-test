@@ -33,7 +33,7 @@ console.log(message);
 
 And a piece of javascript code with wrong syntax, but with syntax validation disabled.
 
-{%ace edit=false, lang='javascript', check=true%}
+{%ace edit=false, lang='javascript', check=false%}
 var test = [
 	somethingIsWrong: 'withThis';
 ];
