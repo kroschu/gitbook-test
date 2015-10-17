@@ -63,3 +63,15 @@ You can add a ```{%message%}``` sub-block. The message will be displayed only af
 {%endmcq%}
 
 <!--endsec-->
+
+{%mcq ans="o1", count=2%}
+{%title%} This is a question?
+{%o1%} First option
+{%o2%} Second option
+{%o3%} Third option
+{%o4%} Fourth option
+{%o5%} Fourth option
+{%o6%} Fourth option
+{%o7%} Fourth option
+{%o8%} Fourth option
+{%endmcq%}
