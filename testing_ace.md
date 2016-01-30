@@ -38,3 +38,11 @@ var test = [
 	somethingIsWrong: 'withThis';
 ];
 {%endace%}
+
+Custom theme support is also added.
+
+{%ace edit=false, lang='javascript', check=false, theme='monokai'%}
+var test = a => (
+    `ES6 is amazing. $${a}`
+);
+{%endace%}
