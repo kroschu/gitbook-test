@@ -1,10 +1,8 @@
 # gitbook-plugin-ace
 
-<!--sec data-title="Introduction" data-id="intro" ces-->
 This page is implemented using the two plugins developed by me: ```gitbook-plugin-ace```. Please check the [Github repo](https://github.com/ymcatar/gitbook-plugin-ace) for the syntax and changelog of the plugin.
-<!--endsec-->
 
-<!--sec data-title="Examples" data-id="example" ces-->
+## Example 1
 
 Here is the "Hello World" program of C language. The code editor in this section is set to be editable.
 
@@ -21,6 +19,8 @@ int main(){
 }
 {%endace%}
 
+## Example 2
+
 And a javascript code right here:
 
 {%ace edit=false, lang='javascript'%}
@@ -29,7 +29,7 @@ var split = message.split(' ').join('');
 console.log(message);
 {%endace%}
 
-<!--endsec-->
+## Example 3
 
 And a piece of javascript code with wrong syntax, but with syntax validation disabled.
 
@@ -39,9 +39,11 @@ var test = [
 ];
 {%endace%}
 
+## Example 4
+
 Custom theme support is also added.
 
-{%ace edit=false, lang='javascript', check=false, theme='monokai' %}
+{%ace edit=false, lang='javascript', theme='monokai'%}
 var test = a => (
     `ES6 is amazing. $${a}`
 );
