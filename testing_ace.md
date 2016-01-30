@@ -41,7 +41,7 @@ var test = [
 
 Custom theme support is also added.
 
-{%ace edit=false, lang='javascript', check=false, theme='monokai'%}
+{%ace edit=false, lang='javascript', check=false, theme='monokai' %}
 var test = a => (
     `ES6 is amazing. $${a}`
 );
