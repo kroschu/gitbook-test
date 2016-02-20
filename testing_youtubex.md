@@ -8,13 +8,18 @@ This page is implemented using the two plugins developed by me: ```gitbook-plugi
 <!--sec data-title="Examples" data-id="example" ces-->
 YouTube videos can be inserted into a GitBook chapter using a tag with the video id inserted in-between:
 ```
-{%youtube%}M7lc1UVf-VE{%endyoutube%}
+{%youtube%}dQw4w9WgXcQ{%endyoutube%}
 ```
 
 It will appear like this:
 
-{%youtube%}M7lc1UVf-VE{%endyoutube%}
+{%youtube%}dQw4w9WgXcQ{%endyoutube%}
 
 ... which is responsive to the page size. A link will be displayed instead when exported to .pdf or other formats.
+
+You can even embed time marker into the book:
+
+* Never gonna run around {%m id="dQw4w9WgXcQ", s=47%}{%endm%}
+* Never gonna give you up {%m id="dQw4w9WgXcQ", m=2, s=41%}{%endm%}
 
 <!--endsec-->
