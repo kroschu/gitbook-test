@@ -27,6 +27,7 @@ And a javascript code right here:
 var message = 'H e l l o W o r l d';
 var split = message.split(' ').join('');
 console.log(message);
+console.log("testing {{test}}");
 {%endace%}
 
 ## Example 3
