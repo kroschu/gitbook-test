@@ -15,10 +15,7 @@
 		},
 		"facebook": {
 			"appKey": "your-app-id"
-		},
-        "sectionx": {
-	      "tag": "b"
-	    }
+		}
 	},
 	"gitbook": ">=3.0.0"
 }
